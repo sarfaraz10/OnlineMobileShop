@@ -1,0 +1,78 @@
+
+
+body{
+background-image: url("nasa.jpeg");
+ background-repeat: no-repeat;
+ background-size: 100%100%;
+ 
+ 
+}
+
+h1{
+	background-image: url("kevin-schmid--grs8iMGqQE-unsplash.jpg");
+	
+border-radius:10px;
+border: 1px solid #ccc;
+color:#000000;
+}
+
+
+
+
+
+
+.box {
+transition: box-shadow .3s;
+width: 300px;
+margin: 50px;
+border-radius:10px;
+border: 1px solid #ccc;
+background:  #eaeded;
+float: left;
+justify-content: center;
+text-align:center;
+padding-bottom: 25px;
+}
+.box:hover {
+box-shadow: 0 0 11px rgba(33,33,33,.2);
+}
+
+.round {
+background: #000000;
+border-radius: 30px;
+border: none;
+color: #ffffff;
+font-size: 16px;
+padding: 15px 30px;
+text-decoration: none; }
+
+.round-grad {
+background-image: -webkit-gradient(linear, left top, left bottom, from(#57ff03), to(#0dc700));
+background-image: -webkit-linear-gradient(top, #57ff03, #0dc700);
+background-image: -o-linear-gradient(top, #57ff03, #0dc700);
+background-image: linear-gradient(to bottom, #57ff03, #0dc700);
+color: #fff;
+border: none;
+border-radius: 30px;
+font-size: 16px;
+padding: 15px 30px;
+text-decoration: none; }
+
+
+.curve {
+background: #0069eb;
+color: #fff;
+border-radius: 6px;
+border: none;
+font-size: 16px;
+padding: 15px 30px;
+text-decoration: none; }
+
+.curve-stroke {
+background: none;
+color: #333;
+border: 1px solid #333;
+border-radius: 6px;
+font-size: 16px;
+padding: 15px 30px;
+text-decoration: none; }
